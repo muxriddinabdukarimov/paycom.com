@@ -34,7 +34,7 @@ const Footer = () => {
 					{socialMedia.map((social, indx) => (
 						<a
 							key={indx}
-							href={social.url}
+							href={social.id}
 							className={`${
 								indx === socialMedia.length - 1
 									? "mr-0"
